@@ -18,7 +18,7 @@ unzip_file(zip_path, password)
 
 
 # VirusTotalAnalyzer
-api_key = "8855876211e9e685efb3f3362691ac517d358f47406b2bcf988ab88ef3c40ca5"
+api_key = "<KEY_API_INPUT>"
 file_path = "invoice-42369643.html"
 upload_file_url = "https://www.virustotal.com/api/v3/files"
 headers = {"accept": "application/json", "x-apikey": api_key}
@@ -97,7 +97,7 @@ print(report_df)
 
 
 url = 'https://vulners.com/api/v3/burp/softwareapi/'
-api_key = "QY6X9YK1FO1R42RU3RJ7H050X8SJ4OLPMNBUVOXPKQWXYPTIQFYOIP7U9RTI1GY3"
+api_key = "<KEY_API_INPUT>"
 headers = {"Content-type": "application/json"}
 
 def create_vulners_report_json():
